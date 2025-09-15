@@ -21,6 +21,7 @@ a {
 	max-width: 1150px;
 	margin: 0 auto;
 	display: flex;
+	padding: 0 2em;
 }
 .cta-button {
 	background-color: #25f18b;
