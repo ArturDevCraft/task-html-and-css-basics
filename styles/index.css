@@ -50,13 +50,11 @@ a {
 
 .header__navbar {
 	justify-content: space-between;
+	padding-right: 2em;
 }
 
 .header__logo img {
 	height: 3em;
-}
-.header__nav {
-	padding-right: 2em;
 }
 
 .header__nav ul {
