@@ -195,6 +195,7 @@ a {
 	font-size: 2.2em;
 	font-weight: 200;
 	padding: 0.8em 0;
+	text-align: left;
 }
 .display p {
 	line-height: 1.8;
@@ -202,14 +203,14 @@ a {
 
 .display__container {
 	justify-content: space-around;
-	column-gap: 5em;
+	column-gap: 2em;
+}
+
+.display__section-img {
+	flex: 0 0 60%;
 }
 
 .display__section-img img {
 	width: clamp(100px, 100%, 600px);
 	height: auto;
-}
-
-.display .column {
-	max-width: 50%;
 }
