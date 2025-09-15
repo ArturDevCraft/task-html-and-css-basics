@@ -40,6 +40,8 @@ a {
 	transform: scale(1.1);
 }
 
+/* HEADER */
+
 .header {
 	background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 	color: #fff;
@@ -109,6 +111,58 @@ a {
 	border: 10px solid #fff;
 	border-radius: 8px;
 }
+
 .header__hero-img img {
 	width: 100%;
+}
+
+/* FEATURES  */
+
+.features {
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 1.4rem;
+	padding-bottom: 4em;
+	text-align: center;
+}
+
+.features h2 {
+	font-size: 2.2em;
+	font-weight: 200;
+	padding: 1.5em 0;
+}
+
+.features h4 {
+	font-weight: 500;
+	padding: 1.8em 0;
+}
+
+.features p {
+	line-height: 1.5;
+	font-weight: 200;
+}
+
+.features__container {
+	justify-content: center;
+	column-gap: 4em;
+	padding-bottom: 2em;
+}
+
+.features .column {
+	width: clamp(100px, 30%, 200px);
+}
+
+.features__image-holder {
+	background-color: #ffffff;
+	border-radius: 50%;
+	display: flex;
+	margin: 0 auto;
+	padding: 2em;
+	width: 80px;
+	height: 80px;
+	justify-content: center;
+}
+
+.features__image-holder img {
+	object-fit: contain;
 }
