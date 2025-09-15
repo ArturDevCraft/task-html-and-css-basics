@@ -165,3 +165,17 @@ a {
 .features__image-holder img {
 	object-fit: contain;
 }
+
+/* LOGOS  */
+.logos {
+	padding: 4em 0;
+}
+
+.logos__container {
+	justify-content: center;
+}
+
+.logos img {
+	height: 29px;
+	width: auto;
+}
