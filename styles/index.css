@@ -239,7 +239,7 @@ a {
 }
 
 .cards {
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: stretch;
 	padding: 3em 0;
 }
