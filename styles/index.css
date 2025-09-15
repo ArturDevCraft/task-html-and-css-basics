@@ -180,3 +180,36 @@ a {
 	height: 29px;
 	width: auto;
 }
+
+/* DISPLAY section */
+
+.display {
+	color: #454545;
+	font-size: 1.4rem;
+	font-weight: 300;
+	padding: 3em 0;
+	text-align: justify;
+}
+
+.display h2 {
+	font-size: 2.2em;
+	font-weight: 200;
+	padding: 0.8em 0;
+}
+.display p {
+	line-height: 1.8git s;
+}
+
+.display__container {
+	justify-content: space-around;
+	column-gap: 5em;
+}
+
+.display__section-img img {
+	width: clamp(100px, 100%, 600px);
+	height: auto;
+}
+
+.display .column {
+	max-width: 50%;
+}
