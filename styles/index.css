@@ -194,7 +194,7 @@ a {
 .display h2 {
 	font-size: 2.2em;
 	font-weight: 200;
-	padding: 0.8em 0;
+	margin: 0.8em 0;
 	text-align: left;
 }
 .display p {
@@ -213,4 +213,88 @@ a {
 .display__section-img img {
 	width: clamp(100px, 100%, 600px);
 	height: auto;
+}
+
+/* PRICING */
+.pricing {
+	background-color: #f8f9f9;
+	color: #575957;
+	font-size: 1.4em;
+	padding: 4em 0;
+}
+
+.pricing__header {
+	text-align: center;
+}
+
+.pricing__header h2 {
+	font-weight: 200;
+	font-size: 2.1em;
+	margin: 0.6em 0;
+}
+
+.pricing__header p {
+	color: #9d9ba6;
+	font-weight: 200;
+}
+
+.cards {
+	justify-content: flex-start;
+	align-items: stretch;
+	padding: 3em 0;
+}
+
+.cards__card {
+	padding: 3em 4em;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.cards__card h4 {
+	font-weight: 200;
+}
+
+.cards__card ul {
+	list-style-type: none;
+	margin: 2em 0;
+	align-self: self-start;
+}
+
+.cards__card ul li {
+	line-height: 1.3;
+}
+
+.cards__card-price {
+	display: block;
+	font-size: 2em;
+	font-weight: 700;
+	margin: 0.3em 0;
+}
+
+.cards__card-period {
+	font-size: 0.8em;
+}
+
+.cards__card-btn {
+	background-color: #07bceb;
+	border: none;
+	border-radius: 1em;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 1.2em 1.9em;
+	white-space: nowrap;
+	margin-top: auto;
+	transition: 0.3s ease-out transform, 0.3s ease background-color;
+}
+
+.cards__card-btn:hover {
+	background-color: #62d6f4;
+	transform: scale(1.1);
+}
+
+.cards__card--active {
+	box-shadow: 0 0 32px rgba(0, 0, 0, 0.2);
 }
