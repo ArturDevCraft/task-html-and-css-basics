@@ -316,3 +316,41 @@ a {
 	text-align: center;
 }
 
+.team-cards {
+	text-align: center;
+	justify-content: center;
+	padding: 3em 0;
+}
+
+.team-cards span {
+	display: block;
+	margin: 1em 0;
+}
+
+.team-cards h4 {
+	font-weight: 200;
+	font-size: 1.3em;
+	margin: 0.9em 0;
+}
+
+.team-cards__card {
+	padding: 0 2.6em;
+}
+
+.team-cards__card-photo img {
+	width: clamp(30px, 100px, 120px);
+	height: auto;
+}
+
+.team-cards__card-name {
+	font-weight: 600;
+}
+
+.team-cards__card-description {
+	font-weight: 300;
+	font-size: 0.9em;
+}
+
+.team-cards__card-social img {
+	margin: 0.5em;
+}
